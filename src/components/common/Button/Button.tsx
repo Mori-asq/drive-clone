@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Button.module.scss";
+import { Button } from "@/Interface";
 
 export default function Button({ btnClass, title, onClick }: Button) {
   return (

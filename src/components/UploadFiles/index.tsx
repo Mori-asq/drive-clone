@@ -5,6 +5,7 @@ import { fileUpload } from "@/API/FileUpload";
 import CommonProgress from "../common/Progress";
 import { addFolder } from "@/API/Firestore";
 import { useFetchSession } from "@/hooks/useSession";
+import { FolderStructure } from "@/Interface";
 
 export default function UploadFiles({ parentId, ownerEmail }: FolderStructure) {
   let { session } = useFetchSession();

@@ -7,6 +7,7 @@ import { BsThreeDotsVertical } from "react-icons/bs";
 import { useRouter } from "next/router";
 import { fetchFolderName } from "@/hooks/fetchFolderName";
 import { shareFiles } from "@/API/Firestore";
+import { FolderStructure } from "@/Interface";
 
 export default function ShowFiles({ parentId }: FolderStructure) {
   let { session } = useFetchSession();
